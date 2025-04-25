@@ -19,7 +19,6 @@ const Thankyou = lazy(() => import("./Pages/Thankyou"));
 const Portfolio = lazy(() => import("./Pages/Portfolio"));
 
 import { LoadingSpinner } from "./Components/Loader";
-import PopupContactForm from "./Components/PopupContactForm";
 import ScrollToTop from "./Components/ScrollToTop";
 
 const AppRouter = createBrowserRouter([
@@ -97,46 +96,6 @@ const AppRouter = createBrowserRouter([
         />
         {/* <PopupContactForm /> */}
         <LandingPage page={"app"} />
-      </Suspense>
-    ),
-  },
-  {
-    path: "/ai-development",
-    element: (
-      <Suspense fallback={<LoadingSpinner />}>
-        <ScrollToTop />
-        <Toaster
-          position="top-bottom"
-          toastOptions={{
-            style: {
-              zIndex: "10000",
-              background: "#010C2A",
-              color: "#ffffff",
-            },
-          }}
-        />
-        {/* <PopupContactForm /> */}
-        <AILandingPage />
-      </Suspense>
-    ),
-  },
-  {
-    path: "/blockchain-development",
-    element: (
-      <Suspense fallback={<LoadingSpinner />}>
-        <ScrollToTop />
-        <Toaster
-          position="top-bottom"
-          toastOptions={{
-            style: {
-              zIndex: "10000",
-              background: "#010C2A",
-              color: "#ffffff",
-            },
-          }}
-        />
-        {/* <PopupContactForm /> */}
-        <BlockchainLandingPage />
       </Suspense>
     ),
   },
