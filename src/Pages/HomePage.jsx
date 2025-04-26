@@ -1,6 +1,6 @@
 import React from "react";
 import HomePageBanner from "../Components/HomePageBanner";
-import homeaboutimg from "../assets/images/homeaboutimg.png";
+import homeaboutimg from "../assets/images/homeaboutimg.webp";
 import WhyChooseUs from "../Components/WhyChooseUs";
 import RoundedHeader from "../Components/RoundedHeader";
 import ServicesGrid from "../Components/ServicesGrid";
@@ -51,9 +51,9 @@ const HomePage = () => {
             landscape and unlock the full potential of your business.
           </p>
         </div>
+        <ServicesGrid />
       </section>
 
-      <ServicesGrid />
       <Industries />
       <Portfolio />
       <div className="relative overflow-hidden dark:bg-darkblack min-h-screen">
