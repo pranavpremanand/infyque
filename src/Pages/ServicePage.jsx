@@ -3,7 +3,7 @@ import RoundedHeader from "../Components/RoundedHeader";
 import { useTheme } from "../Context/ThemeContext";
 import ServicesGrid from "../Components/ServicesGrid";
 import Testimonials from "../Components/Testimonials";
-import servicebanner from "../assets/images/servicebanner.jpg";
+import servicebanner from "../assets/images/servicebanner.webp";
 const ServicePage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";

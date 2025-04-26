@@ -1,4 +1,4 @@
-import visionmissionimg from "../assets/images/visionmissionimg.png";
+import visionmissionimg from "../assets/images/visionmissionimg.webp";
 import { visionAndMission } from "../util/constant";
 import userimg from "../assets/images/userimg.jpeg";
 import { useNavigate } from "react-router-dom";
