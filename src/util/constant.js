@@ -223,35 +223,35 @@ export const whyChooseUs = [
 export const testimonials = [
   {
     quote:
-      "We needed a fresh, modern website — something that didn’t just look good, but also reflected our values. Lunexa delivered a clean, intuitive site that our team and customers love. They were responsive, collaborative, and just easy to work with from start to finish.",
+      "We needed a fresh, modern website — something that didn’t just look good, but also reflected our values. Infyque delivered a clean, intuitive site that our team and customers love. They were responsive, collaborative, and just easy to work with from start to finish.",
     author: "Jane D., Product Manager at RetailTech",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "I had a concept for a driver tracking app but didn’t know where to start. Lunexa took the time to understand what I was trying to achieve and built a solution that was better than what I imagined. The UI is smooth, performance is solid, and their support post-launch has been fantastic.",
+      "I had a concept for a driver tracking app but didn’t know where to start. Infyque took the time to understand what I was trying to achieve and built a solution that was better than what I imagined. The UI is smooth, performance is solid, and their support post-launch has been fantastic.",
     author: "John S., CEO at TrendyFashion Co",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "We were stuck with a clunky interface that users found confusing. Lunexa’s design team stepped in and completely transformed the experience. Every screen now has a purpose. Navigation is intuitive, and conversions are noticeably up. They didn’t just make it look better — they made it work better.",
+      "We were stuck with a clunky interface that users found confusing. Infyque’s design team stepped in and completely transformed the experience. Every screen now has a purpose. Navigation is intuitive, and conversions are noticeably up. They didn’t just make it look better — they made it work better.",
     author: "Michael T., CTO at FinSec Innovations",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "Our support team was stretched thin, so we brought in Lunexa to help us build a smart chatbot. What we got was an assistant that actually understands what customers need. It handles most queries automatically, and our response time has improved significantly.",
+      "Our support team was stretched thin, so we brought in Infyque to help us build a smart chatbot. What we got was an assistant that actually understands what customers need. It handles most queries automatically, and our response time has improved significantly.",
     author: "Amanda W., HR Director at GlobalTraining Solutions",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "I was launching an NFT platform for digital artists and needed a team that could balance blockchain development with user-friendly design. Lunexa delivered both. Smart contracts were airtight, the marketplace is smooth, and they made the whole process surprisingly stress-free.",
+      "I was launching an NFT platform for digital artists and needed a team that could balance blockchain development with user-friendly design. Infyque delivered both. Smart contracts were airtight, the marketplace is smooth, and they made the whole process surprisingly stress-free.",
     author: "Lucas F., Head of Game Development at Pixel Ventures",
     rating: 5,
     gridClass: "col-span-1",
