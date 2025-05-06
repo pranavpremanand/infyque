@@ -248,7 +248,7 @@ export const blogPosts = [
     <p class="leading-relaxed mb-4 font-medium">
       💡 Ready to Harness AI for Your Business?
       If you're looking to implement AI solutions that actually work (without the hype), we've helped over 200 companies integrate AI the right way.
-      Visit <a href="www.INFYQUE.com/ai-solutions" class="text-blue-500">www.INFYQUE.com/ai-solutions</a> to see real-world case studies and get a free consultation.
+      Visit <a href="www.INFYQUE.com" class="text-blue-500">www.INFYQUE.com</a> to see real-world case studies and get a free consultation.
     </p>
   
     <p class="leading-relaxed mb-4">
