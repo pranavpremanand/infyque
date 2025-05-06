@@ -8,13 +8,13 @@ function BlogPage() {
   return (
     <div className="dark:bg-darkblack overflow-x-hidden max-w-screen">
       <BlogHeader />
-      {/* <div className="wrapper">
+      <div className="wrapper">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4  py-10 dark:bg-darkblack">
           {blogPosts.map((post, index) => (
             <BlogBody key={index} {...post} />
           ))}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

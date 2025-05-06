@@ -2,6 +2,7 @@ import React from "react";
 import whychooseusimg from "../assets/images/whychooseusimg.webp";
 import { whyChooseUs } from "../util/constant";
 import { Check } from "lucide-react";
+
 const WhyChooseUs = () => {
   return (
     <section>
