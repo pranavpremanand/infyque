@@ -30,8 +30,10 @@ const ServicesGrid = () => {
               >
                 <div
                   className={`absolute ${
-                    hover !== index && isDarkMode ? `sm:flex hidden ` : "hidden"
-                  } -top-[16rem] blur-3xl left-0 w-full h-full dark:bg-footerBackground  active:bg-hidden`}
+                    hover !== index ? `sm:flex hidden ` : "hidden"
+                  } -top-[16rem] blur-3xl left-0 w-full h-full ${
+                    isDarkMode ? 'bg-footerBackground' : 'bg-footerBackgroundLight'
+                  } active:bg-hidden`}
                 />
                 <div
                   className={`flex flex-col justify-evenly  min-h-full p-5 darkandlightcardhovertext  text-darkblack dark:text-white`}

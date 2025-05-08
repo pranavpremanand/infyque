@@ -1,17 +1,13 @@
 import React, { useState } from "react";
-import {
-  appPortfolio,
-  blockchainPortfolio,
-  webPortfolio,
-} from "../util/constant";
+import { appPortfolio, webPortfolio } from "../util/constant";
 
 const Portfolio = () => {
   const [activePortfolio, setActivePortfolio] = useState("web");
 
   const portfolioTypes = [
+    { key: "all", label: "All" },
     { key: "web", label: "Web Projects" },
     { key: "app", label: "Mobile Apps" },
-    { key: "blockchain", label: "Blockchain" },
   ];
 
   const getCurrentPortfolio = () => {
@@ -20,8 +16,8 @@ const Portfolio = () => {
         return webPortfolio;
       case "app":
         return appPortfolio;
-      case "blockchain":
-        return blockchainPortfolio;
+      case "all":
+        return [...webPortfolio, ...appPortfolio];
       default:
         return webPortfolio;
     }
@@ -48,7 +44,7 @@ const Portfolio = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {getCurrentPortfolio().map((project) => (
             <div
               key={project.id}
@@ -57,7 +53,7 @@ const Portfolio = () => {
               <img
                 src={project.img}
                 alt={project.title}
-                className="w-full h-48 object-cover"
+                className="w-full aspect-square object-cover"
               />
               <div className="p-4">
                 <h3 className="small-heading dark:text-white  mb-2 ">

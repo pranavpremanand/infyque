@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logoWhite from "../assets/images/logo-white.png";
-import logoBlack from "../assets/images/logo-black.png";
 import { useTheme } from "../Context/ThemeContext";
 import { companyDetails } from "../util/constant";
 import { PhoneCall } from "lucide-react";
@@ -12,9 +11,9 @@ const Footer = () => {
   return (
     <div className="relative bg-primary dark:bg-primary/30 z-20 overflow-hidden">
       <div
-        className={`absolute ${
-          isDarkMode ? `flex` : "hidden"
-        } -bottom-[15rem] blur-3xl left-0 w-full h-full bg-footerBackground -z-10 `}
+        className={`absolute flex -bottom-[15rem] blur-3xl left-0 w-full h-full ${
+          isDarkMode ? 'bg-footerBackground' : 'bg-footerBackgroundLight'
+        } -z-10`}
       />
       <footer className="w-full   py-16  z-10">
         <div className="wrapper">
@@ -24,12 +23,7 @@ const Footer = () => {
                 <img
                   src={logoWhite}
                   alt="logo"
-                  className="hidden dark:block w-[15rem]"
-                />
-                <img
-                  src={logoBlack}
-                  alt="logo"
-                  className="black dark:hidden w-[15rem]"
+                  className="object-contain w-[15rem]"
                 />
               </div>
               <p className="text-white text-sm max-w-xs">

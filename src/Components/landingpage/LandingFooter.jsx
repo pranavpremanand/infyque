@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTheme } from "../../Context/ThemeContext";
 import logoWhite from "../../assets/images/logo-white.png";
-import logoBlack from "../../assets/images/logo-black.png";
 import { Link as Scrolllink } from "react-scroll";
 import { companyDetails } from "../../util/constant";
 
@@ -12,25 +11,20 @@ const LandingFooter = () => {
   return (
     <div className="relative bg-primary dark:bg-primary/30 z-20 overflow-hidden">
       <div
-        className={`absolute ${
-          isDarkMode ? `flex` : "hidden"
-        } -bottom-[15rem] blur-3xl left-0 w-full h-full bg-footerBackground -z-10 `}
+        className={`absolute flex -bottom-[15rem] blur-3xl left-0 w-full h-full ${
+          isDarkMode ? 'bg-footerBackground' : 'bg-footerBackgroundLight'
+        } -z-10 `}
       />
       <footer className="w-full  px-4 py-16 md:px-8 z-10">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3  xl:grid-cols-4 gap-8 items-start">
             <div className="col-span-1">
               <div className="flex items-center gap-2 mb-4">
-               <img
-                                 src={logoWhite}
-                                 alt="logo"
-                                 className="hidden dark:block w-[15rem]"
-                               />
-                               <img
-                                 src={logoBlack}
-                                 alt="logo"
-                                 className="black dark:hidden w-[15rem]"
-                               />
+                <img
+                  src={logoWhite}
+                  alt="logo"
+                  className="object-contain w-[15rem]"
+                />
               </div>
               <p className="text-white text-sm max-w-xs">
                 Unleash the Next Wave of Business Evolution with INFYQUE

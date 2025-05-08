@@ -58,9 +58,9 @@ const HomePage = () => {
       <Portfolio />
       <div className="relative overflow-hidden dark:bg-darkblack min-h-screen">
         <div
-          className={`absolute ${
-            isDarkMode ? `flex` : `hidden`
-          } -bottom-[50rem] -left-[50rem] w-full h-full bg-background blur-3xl opacity-70 z-0`}
+          className={`absolute flex -bottom-[50rem] -left-[50rem] w-full h-full ${
+            isDarkMode ? 'bg-background' : 'bg-backgroundLight'
+          } blur-3xl opacity-70 z-0`}
         />
         <div className="relative z-10 w-full h-full">
           <Testimonials />

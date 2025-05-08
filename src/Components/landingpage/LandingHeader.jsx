@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Sun, Moon, Menu, X } from "lucide-react";
 import logoWhite from "../../assets/images/logo-white.png";
-import logoBlack from "../../assets/images/logo-black.png";
 import { Link } from "react-router-dom";
 import { useTheme } from "../../Context/ThemeContext";
 import { Link as Scrolllink } from "react-scroll";
@@ -34,12 +33,7 @@ const LandingHeader = () => {
               <img
                 src={logoWhite}
                 alt="logo"
-                className="hidden dark:block w-[7rem] sm:w-[10rem]"
-              />
-              <img
-                src={logoBlack}
-                alt="logo"
-                className="black dark:hidden w-[7rem] sm:w-[10rem]"
+                className="object-contain w-[7rem] sm:w-[10rem]"
               />
             </Scrolllink>
           </div>

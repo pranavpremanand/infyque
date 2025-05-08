@@ -64,9 +64,9 @@ const LandingPage = ({ page }) => {
         <LandingServices page={page} />
         <div className="relative overflow-hidden">
           <div
-            className={`absolute ${
-              isDarkMode ? `flex` : "hidden"
-            } top-[41rem] blur-3xl -left-[47rem] w-full h-full bg-footerBackground  `}
+            className={`absolute flex top-[41rem] blur-3xl -left-[47rem] w-full h-full ${
+              isDarkMode ? 'bg-footerBackground' : 'bg-footerBackgroundLight'
+            }`}
           />
           <Portfolio page={page} />
           <TechnologiesUsed service={page} />

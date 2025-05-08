@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Sun, Moon, Menu, X } from "lucide-react";
 import { useTheme } from "../Context/ThemeContext";
 import logoWhite from "../assets/images/logo-white.png";
-import logoBlack from "../assets/images/logo-black.png";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 
 const Header = () => {
@@ -31,12 +30,7 @@ const Header = () => {
               <img
                 src={logoWhite}
                 alt="logo"
-                className="hidden dark:block w-[7rem] sm:w-[10rem]"
-              />
-              <img
-                src={logoBlack}
-                alt="logo"
-                className="black dark:hidden w-[7rem] sm:w-[10rem]"
+                className="w-[7rem] sm:w-[10rem] object-contain"
               />
             </Link>
           </div>

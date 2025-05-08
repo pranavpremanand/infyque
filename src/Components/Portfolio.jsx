@@ -1,10 +1,6 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
-import {
-  appPortfolio,
-  blockchainPortfolio,
-  webPortfolio,
-} from "../util/constant";
+import { appPortfolio, webPortfolio } from "../util/constant";
 import RoundedHeader from "./RoundedHeader";
 import { Link } from "react-router-dom";
 const animation = { duration: 60000, easing: (t) => t };
@@ -15,13 +11,10 @@ const Portfolio = ({ page }) => {
 
   let displayedAppPortfolio = [];
   let displayedWebPortfolio = [];
-  let displayedBlockchainPortfolio = [];
   if (page === "web") {
     displayedWebPortfolio = webPortfolio;
   } else if (page === "app") {
     displayedAppPortfolio = appPortfolio;
-  } else if (page === "blockchain") {
-    displayedBlockchainPortfolio = blockchainPortfolio;
   } else {
     displayedWebPortfolio = webPortfolio;
     displayedAppPortfolio = appPortfolio;
@@ -150,43 +143,6 @@ const Portfolio = ({ page }) => {
                     </div>
                   </Link>
                 ))}
-              </div>
-            </>
-          )}
-
-          {displayedBlockchainPortfolio.length > 0 && (
-            <>
-              <h3 className="main-title text-center my-16" data-aos="fade-up">
-                Blockchain Projects
-              </h3>
-              <div ref={sliderRef} className="keen-slider">
-                {displayedBlockchainPortfolio
-                  .concat(
-                    displayedBlockchainPortfolio,
-                    displayedBlockchainPortfolio
-                  )
-                  .map((obj) => (
-                    <Link
-                      to={obj.link}
-                      key={obj.title}
-                      className="keen-slider__slide border-4 dark:bg-darkblack border-primary/40 rounded-xl bg-custom-gradient"
-                    >
-                      <img
-                        src={obj.img}
-                        alt={obj.title}
-                        className="rounded-t-xl hover:scale-105 transition-all duration-300 lg:max-h-[316px] w-full 2xl:max-h-[467px] object-cover"
-                      />
-                      {/* <div
-                      className={`lg:max-h-[316px] 2xl:max-h-[467px] 2xl:min-h-[467px] flex items-end w-full overflow-hidden`}
-                    >
-                    </div> */}
-                      <div className="px-3 mt-3 pb-5 max-h-[96px]">
-                        <h4 className="font-semibold dark:text-white text-xl text-center">
-                          {obj.title}
-                        </h4>
-                      </div>
-                    </Link>
-                  ))}
               </div>
             </>
           )}

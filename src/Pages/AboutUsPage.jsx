@@ -14,9 +14,9 @@ const AboutUsPage = () => {
     <div className=" bg-white dark:bg-darkblack">
       <section className="relative pt-[7rem]  overflow-hidden">
         <div
-          className={`absolute ${
-            isDarkMode ? `flex` : "hidden"
-          } -top-[28rem] blur-3xl left-0 w-full h-full bg-footerBackground  `}
+          className={`absolute flex -top-[28rem] blur-3xl left-0 w-full h-full ${
+            isDarkMode ? 'bg-footerBackground' : 'bg-footerBackgroundLight'
+          }`}
         />{" "}
         <section className="relative z-10 w-full h-full">
           <div>
@@ -54,9 +54,9 @@ const AboutUsPage = () => {
       </section>
       <div className="relative overflow-hidden">
         <div
-          className={`absolute ${
-            isDarkMode ? `flex` : "hidden"
-          } top-[41rem] blur-3xl -left-[47rem] w-full h-full bg-footerBackground  `}
+          className={`absolute flex top-[41rem] blur-3xl -left-[47rem] w-full h-full ${
+            isDarkMode ? 'bg-footerBackground' : 'bg-footerBackgroundLight'
+          }`}
         />
         <section className="relative z-10 w-full h-full">
           <CoreValues />

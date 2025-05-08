@@ -1,17 +1,3 @@
-import {
-  Smartphone,
-  Users,
-  Code,
-  Cpu,
-  Bot,
-  Database,
-  Cloud,
-  Box,
-  Gamepad2,
-  Network,
-  MemoryStick,
-  BrainCircuit,
-} from "lucide-react";
 import file from "../assets/images/png/file.png";
 import graph from "../assets/images/png/graph.png";
 import rocket from "../assets/images/png/rocket.png";
@@ -21,31 +7,21 @@ import quality from "../assets/images/png/quality.png";
 import success from "../assets/images/png/success.png";
 import Infinite from "../assets/images/png/Infinite.png";
 
-// porfolio image
-// Import all images at the top (Web Development)
-import FiveGHomesImg from "../assets/web-development-portfolio/5ghomes.png";
-import BayutImg from "../assets/web-development-portfolio/bayut.png";
-import ColdCreekcapImg from "../assets/web-development-portfolio/cold creekcap.png";
-import EmergencyMusicImg from "../assets/web-development-portfolio/emergency music .png";
-import FlatiornImg from "../assets/web-development-portfolio/flatiorn.png";
-import MavenImg from "../assets/web-development-portfolio/maven.png";
-import MenissaCateringsImg from "../assets/web-development-portfolio/menissa caterings.png";
-import MethodistImg from "../assets/web-development-portfolio/methodist.png";
-import ThinkRealityImg from "../assets/web-development-portfolio/think reality.png";
+// web development portfolio images
+import webFiveGHomes from "../assets/portfolio/web-development/5ghomes.webp";
+import webThinkReality from "../assets/portfolio/web-development/think-reality.webp";
+import webColdCreekcap from "../assets/portfolio/web-development/cold-creekcap.webp";
+import webMidwam from "../assets/portfolio/web-development/midwam.webp";
+import webAkashMegaMart from "../assets/portfolio/web-development/akash-mega-mart.webp";
 
-// Import all images at the top (App Development)
-import DubaiTravelGuideImg from "../assets/app-development-portfolio/dubai travel guide.png";
-import EloraHairPalourImg from "../assets/app-development-portfolio/elora hair palour.png";
-import EvansFrancisImg from "../assets/app-development-portfolio/evans francis.png";
-import HouseOfDeliverenceImg from "../assets/app-development-portfolio/house of deliverence.png";
-import MybitsShopImg from "../assets/app-development-portfolio/mybitsshop.png";
-import NamazImg from "../assets/app-development-portfolio/namaz.png";
-import PoteaImg from "../assets/app-development-portfolio/potea.png";
-import RentopBikeAndCarImg from "../assets/app-development-portfolio/rentop bike and car.png";
-//portfolio
-import nanoflow from "../assets/portfolio/nanoflow.png";
-import padipal from "../assets/portfolio/padipal.png";
-import cryptopadie from "../assets/portfolio/cryptopadie.png";
+// app development portfolio images
+import appRentop from "../assets/portfolio/app-development/rentop.webp";
+import appKlikomics from "../assets/portfolio/app-development/klikomics.webp";
+import appFeelit from "../assets/portfolio/app-development/feelit_app.webp";
+import appAutosnap from "../assets/portfolio/app-development/autosnap-app.webp";
+import appAkashMegaMart from "../assets/portfolio/app-development/akash_mega_mart-app.webp";
+
+// porfolio image
 
 import { CgWebsite } from "react-icons/cg";
 import { GoFileMedia } from "react-icons/go";
@@ -410,7 +386,6 @@ export const visionAndMission = [
   },
 ];
 
-
 // web development services
 export const webDevelopmentServices = [
   {
@@ -443,7 +418,6 @@ export const webDevelopmentServices = [
   },
 ];
 
-
 // app development services
 export const appDevelopmentServices = [
   {
@@ -475,7 +449,6 @@ export const appDevelopmentServices = [
       "We develop hybrid mobile apps that provide a native feel while being cross-platform. Our AI-driven hybrid solutions offer agility, smart offline functionality, and seamless synchronization for fast, efficient delivery.",
   },
 ];
-
 
 // ai development services
 export const aiDevelopmentServices = [
@@ -677,131 +650,64 @@ export const futureTechSectors = [
   },
 ];
 
+// web development portfolio
 export const webPortfolio = [
   {
-    id: 1,
-    img: FiveGHomesImg,
-    title: "5g Homes",
-    link: "https://5ghighspeedinternet.co",
-  },
-  {
     id: 2,
-    img: BayutImg,
-    title: "Bayut",
-    link: "https://www.bayut.com",
+    title: "Akash Mega Mart",
+    img: webAkashMegaMart,
+    link: "https://akashmegamart.com/",
   },
   {
     id: 3,
-    img: ColdCreekcapImg,
-    title: "Cold Creekcap",
-    link: "https://www.coldcreekcap.com",
+    title: "Midwam",
+    img: webMidwam,
+    link: "https://www.midwam.com/en/about",
   },
   {
     id: 4,
-    img: EmergencyMusicImg,
-    title: "Emergency Music",
-    link: "https://www.figma.com/proto/GwlIMQuIuFevhOEp8moALy/emergence-music-distribuBon?page-id=6298%3A7215&type=design&node-id=6298-7776&viewport=407%2C314%2C0.11&t=QCtz7M4USn6gI1CG-1&scaling=min-zoom",
+    title: "Cold Creekcap",
+    img: webColdCreekcap,
+    link: "https://www.coldcreekcap.com",
   },
   {
     id: 5,
-    img: FlatiornImg,
-    title: "Flatiorn",
-    link: "",
-  },
-  {
-    id: 6,
-    img: MavenImg,
-    title: "Maven",
-    link: "",
-  },
-  {
-    id: 7,
-    img: MenissaCateringsImg,
-    title: "Menissa Caterings",
-    link: "https://messinascatering.com",
-  },
-  {
-    id: 8,
-    img: MethodistImg,
-    title: "Methodist",
-    link: "",
-  },
-  {
-    id: 9,
-    img: ThinkRealityImg,
     title: "Think Reality",
+    img: webThinkReality,
     link: "https://thinkrealty.ae",
   },
 ];
 
+// app development portfolio
 export const appPortfolio = [
   {
     id: 1,
-    img: DubaiTravelGuideImg,
-    title: "Dubai Travel Guide",
-    link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
+    title: "Rentop",
+    img: appRentop,
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
   {
     id: 2,
-    img: EloraHairPalourImg,
-    title: "Elora Hair Palour",
-    link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
-  },
-  {
-    id: 3,
-    img: EvansFrancisImg,
-    title: "Evans Francis",
-    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
-  },
-  {
-    id: 4,
-    img: HouseOfDeliverenceImg,
-    title: "House of Deliverence",
-    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
-  },
-  {
-    id: 5,
-    img: MybitsShopImg,
-    title: "Mybits Shop",
+    title: "Klikomics",
+    img: appKlikomics,
     link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
   },
   {
-    id: 6,
-    img: NamazImg,
-    title: "Namaz",
-    link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
+    id: 3,
+    title: "Feelit App",
+    img: appFeelit,
+    link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
   },
   {
-    id: 7,
-    img: PoteaImg,
-    title: "Potea",
+    id: 4,
+    title: "Autosnap",
+    img: appAutosnap,
     link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
   },
   {
-    id: 8,
-    img: RentopBikeAndCarImg,
-    title: "Rentop Bike and Car",
-    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
-  },
-];
-
-export const blockchainPortfolio = [
-  {
-    id: 1,
-    img: nanoflow,
-    title: "Nanoflow",
-    link: "https://play.google.com/store/apps/details?id=com.nanfolo.user.app",
-  },
-  {
-    id: 2,
-    img: padipal,
-    title: "Padipal",
-    link: "https://padiepal.com",
-  },
-  {
-    id: 3,
-    img: cryptopadie,
-    title: "Cryptopadie",
-    link: "https://cryptopadie.com/",
+    id: 5,
+    title: "Akash Mega Mart",
+    img: appAkashMegaMart,
+    link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
   },
 ];
