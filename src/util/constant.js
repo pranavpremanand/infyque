@@ -180,6 +180,38 @@ export const services = [
     icon: FaBrain,
     bgColor: "bg-teal-600",
   },
+  {
+    title: "Cloud Computing",
+    link: "/cloud-computing",
+    description:
+      "We provide scalable, secure, and cost-effective cloud solutions that help businesses modernize their infrastructure and improve operational efficiency.",
+    icon: FaServer,
+    bgColor: "bg-cyan-600",
+  },
+  {
+    title: "Data Science",
+    link: "/data-science",
+    description:
+      "Our data science experts transform raw data into actionable insights, helping businesses make informed decisions and discover hidden patterns and opportunities.",
+    icon: FaChartLine,
+    bgColor: "bg-emerald-600",
+  },
+  {
+    title: "Natural Language Processing",
+    link: "/nlp",
+    description:
+      "We develop advanced NLP solutions that enable machines to understand, interpret, and generate human language for applications like sentiment analysis and automated content generation.",
+    icon: MdChatBubbleOutline,
+    bgColor: "bg-violet-600",
+  },
+  {
+    title: "Cloud Migration",
+    link: "/cloud-migration",
+    description:
+      "We help businesses seamlessly transition their applications, data, and infrastructure to the cloud with minimal disruption and maximum security.",
+    icon: GiNetworkBars,
+    bgColor: "bg-amber-600",
+  },
 ];
 
 export const whyChooseUs = [

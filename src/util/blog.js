@@ -115,7 +115,7 @@ export const blogPosts = [
 <p class="leading-relaxed mb-4 font-medium">
   🚀 Ready to Build the Next Big Thing in Blockchain?
   If you're inspired and want to develop your own blockchain-based app, smart contract, or digital solution, don't wait on the sidelines. Partner with experts who've done it before.
-  Visit <a href="www.INFYQUE.com" target="_blank" class="text-blue-500">www.INFYQUE.com</a> to explore how we can bring your tech ideas to life. With over 350+ global projects completed, our team can help you build secure, scalable, and future-ready blockchain products.
+  Visit www.INFYQUE.com to explore how we can bring your tech ideas to life. With over 350+ global projects completed, our team can help you build secure, scalable, and future-ready blockchain products.
 </p>
 
 <p class="leading-relaxed mb-4">
@@ -248,7 +248,7 @@ export const blogPosts = [
     <p class="leading-relaxed mb-4 font-medium">
       💡 Ready to Harness AI for Your Business?
       If you're looking to implement AI solutions that actually work (without the hype), we've helped over 200 companies integrate AI the right way.
-      Visit <a href="www.INFYQUE.com" target="_blank" class="text-blue-500">www.INFYQUE.com</a> to see real-world case studies and get a free consultation.
+      Visit www.INFYQUE.com to see real-world case studies and get a free consultation.
     </p>
   
     <p class="leading-relaxed mb-4">

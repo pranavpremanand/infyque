@@ -16,14 +16,14 @@ const ServicesGrid = () => {
     <section>
       <div className=" wrapper paddingbottom ">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
             {services.map((service, index) => (
               <div
                 key={index}
                 data-aos="fade-up"
-                className={`relative aspect-square shadow-2xl ${
+                className={`relative aspect-[4/3] shadow-2xl ${
                   isDarkMode ? `hovershadowwhite` : `hover:shadow-black`
-                } duration-500 cursor-pointer transition-all transform hover:-translate-x-8 h-full dark:hover:bg-primary hover:bg-primary group dark:bg-darkblack overflow-hidden rounded-xl border border-slate-700`}
+                } duration-500 cursor-pointer transition-all transform hover:-translate-x-8 dark:hover:bg-primary hover:bg-primary group dark:bg-darkblack overflow-hidden rounded-xl border border-slate-700`}
                 onMouseEnter={() => setHover(index)}
                 onMouseLeave={() => setHover("")}
                 onClick={() => navigateTo(`/services${service.link}`)}

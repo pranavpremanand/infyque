@@ -22,9 +22,6 @@ import Chatbot_DevelopmentSub1 from "../assets/images/services/Chatbot_Developme
 import AI_Development from "../assets/images/services/AI1.webp";
 import AI_DevelopmentSub1 from "../assets/images/services/AI2.webp";
 import AI_DevelopmentSub2 from "../assets/images/services/AI3.webp";
-import Machine_Learning_Solutions from "../assets/images/services/Artificial_Intelligence_Solutions.webp";
-import Machine_Learning_SolutionsSub1 from "../assets/images/services/Artificial_Intelligence_SolutionsSub1.webp";
-import Machine_Learning_SolutionsSub2 from "../assets/images/services/Artificial_Intelligence_SolutionsSub2.webp";
 
 import Data_Science_and_Analytics from "../assets/images/services/Data_Science_and_Analytics.jpeg";
 import Data_Science_and_Analyticssub1 from "../assets/images/services/Data_Science_and_Analyticssub1.jpeg";
@@ -41,6 +38,18 @@ import Game_DevelopmentSub2 from "../assets/images/services/Game_DevelopmentSub2
 import IoT_Development from "../assets/images/services/IoT_Development.jpeg";
 import IoT_DevelopmentSub1 from "../assets/images/services/IoT_DevelopmentSub1.jpeg";
 import IoT_DevelopmentSub2 from "../assets/images/services/IoT_DevelopmentSub2.jpeg";
+
+import Nlp1 from "../assets/images/services/nlp1.webp";
+import Nlp2 from "../assets/images/services/nlp2.webp";
+import Nlp3 from "../assets/images/services/nlp3.webp";
+import CloudComputing1 from "../assets/images/services/cloudcomputing1.webp";
+import CloudComputing2 from "../assets/images/services/cloudcomputing2.webp";
+import CloudComputing3 from "../assets/images/services/cloudcomputing3.webp";
+import CloudMigration1 from "../assets/images/services/cloudmigration1.webp";
+import CloudMigration2 from "../assets/images/services/cloudmigration2.webp";
+import CloudMigration3 from "../assets/images/services/cloudmigration3.webp";
+
+
 
 export const serviceDetails = [
   {
@@ -630,7 +639,7 @@ export const serviceDetails = [
     bannerimg: Game_Development,
     link: "game-development",
     imageone: Game_DevelopmentSub1,
-    imgagetwo: Game_DevelopmentSub1,
+    imgagetwo: Game_DevelopmentSub2,
     title: "Game Development",
     heading: "Immersive Gaming Experiences Across Platforms",
     description: `
@@ -975,6 +984,492 @@ export const serviceDetails = [
       - Monitoring setup
       - Feedback loops
       - Continuous retraining
+    `,
+  },
+  {
+    id: 9,
+    bannerimg: CloudComputing1,
+    link: "cloud-computing",
+    imageone: CloudComputing2,
+    imgagetwo: CloudComputing3,
+    title: "Cloud Computing",
+    heading:
+      "Enterprise Cloud Solutions for Digital Transformation & Business Agility",
+    description: `
+      We architect scalable, secure, and cost-effective cloud infrastructures that empower businesses to innovate faster and operate more efficiently. 
+      Our cloud experts leverage industry-leading platforms (AWS, Azure, Google Cloud) to design and implement tailored solutions that align with your 
+      specific business requirements and growth objectives. From initial assessment to migration and ongoing optimization, we provide end-to-end cloud 
+      services that maximize ROI while minimizing operational complexity.
+
+      Key advantages of our cloud computing approach:
+      - 99.99% uptime SLAs for mission-critical workloads
+      - 40-60% reduction in infrastructure costs
+      - Auto-scaling architectures that handle 10x traffic spikes
+      - Comprehensive security with zero-trust implementation
+      - Disaster recovery with <15 minute RPO/RTO
+    `,
+    secondHeading: "Comprehensive Cloud Computing Services",
+    secondHeading_subheading: "Enterprise-Grade Solutions",
+    services: [
+      {
+        title: "Cloud Infrastructure Design & Implementation",
+        description: `
+          Custom cloud architectures optimized for your workloads:
+          - Multi-cloud and hybrid cloud environments
+          - Containerized microservices (Kubernetes)
+          - Serverless computing frameworks
+          - High-availability configurations
+          - Edge computing integration
+        `,
+      },
+      {
+        title: "Cloud-Native Application Development",
+        description: `
+          Modern applications built for cloud environments:
+          - Microservices architectures
+          - Containerized applications
+          - Serverless functions and workflows
+          - Event-driven architectures
+          - CI/CD pipeline integration
+        `,
+      },
+      {
+        title: "Cloud Management & Optimization",
+        description: `
+          Ongoing cloud operations excellence:
+          - Cost optimization (30-50% typical savings)
+          - Performance monitoring and tuning
+          - Security posture management
+          - Compliance automation (SOC2, HIPAA, GDPR)
+          - FinOps implementation
+        `,
+      },
+    ],
+    thirdHeading: "Cloud Technologies & Platforms",
+    thirdDescription: `
+      We leverage best-in-class cloud technologies:
+      
+      Infrastructure as Code:
+      - Terraform, CloudFormation, ARM templates
+      - Ansible, Chef, Puppet
+      - GitOps workflows
+      - Policy as Code (OPA)
+      - Infrastructure testing frameworks
+
+      Cloud-Native Technologies:
+      - Kubernetes and container orchestration
+      - Service mesh (Istio, Linkerd)
+      - API gateways
+      - Serverless platforms
+      - Event streaming (Kafka, Kinesis)
+
+      Cloud Security:
+      - Identity and access management
+      - Network security and micro-segmentation
+      - Data encryption (at-rest and in-transit)
+      - Secrets management
+      - Compliance automation
+    `,
+    whyMatter: `
+      Strategic cloud adoption delivers measurable business outcomes:
+      - 3x faster time-to-market for new features
+      - 40-60% reduction in infrastructure costs
+      - 99.99% availability for critical systems
+      - 70% reduction in operational overhead
+      - Unlimited scalability for business growth
+
+      In today's digital economy, cloud computing isn't just an IT decision—it's a fundamental business strategy for maintaining competitive advantage.
+    `,
+    fourthHeading: "Our Cloud Implementation Methodology",
+    fourthDescripiton: `
+      1. Assessment & Strategy:
+      - Current infrastructure evaluation
+      - Workload analysis and prioritization
+      - TCO and ROI modeling
+      - Cloud roadmap development
+
+      2. Architecture & Design:
+      - Reference architecture development
+      - Security and compliance planning
+      - Networking and connectivity design
+      - Data migration strategy
+
+      3. Implementation & Migration:
+      - Infrastructure as Code deployment
+      - Phased workload migration
+      - Testing and validation
+      - Knowledge transfer and documentation
+
+      4. Optimization & Management:
+      - Continuous cost optimization
+      - Performance monitoring
+      - Security posture management
+      - Ongoing architectural improvements
+    `,
+  },
+  {
+    id: 10,
+    bannerimg: Data_Science_and_Analytics,
+    link: "data-science",
+    imageone: Data_Science_and_Analyticssub1,
+    imgagetwo: Data_Science_and_Analyticssub2,
+    title: "Data Science",
+    heading:
+      "Advanced Data Science Solutions for Actionable Business Intelligence",
+    description: `
+      We transform raw data into strategic business assets through sophisticated data science methodologies and technologies. 
+      Our team of data scientists, engineers, and analysts work collaboratively to extract meaningful insights, identify patterns, 
+      and develop predictive models that drive data-informed decision making across your organization. From exploratory data analysis 
+      to production-ready machine learning models, we deliver end-to-end data science solutions that create measurable business value.
+
+      Key differentiators of our data science approach:
+      - 85% prediction accuracy in forecasting models
+      - Custom algorithms tailored to your specific business challenges
+      - Explainable AI methodologies for transparent decision-making
+      - Scalable data pipelines processing terabytes of data
+      - Seamless integration with existing business intelligence systems
+    `,
+    secondHeading: "Comprehensive Data Science Services",
+    secondHeading_subheading: "From Data to Decisions",
+    services: [
+      {
+        title: "Predictive Analytics & Forecasting",
+        description: `
+          Forward-looking insights for strategic planning:
+          - Time series forecasting for sales and demand
+          - Customer churn prediction and prevention
+          - Predictive maintenance for equipment
+          - Risk modeling and assessment
+          - Market trend analysis and forecasting
+        `,
+      },
+      {
+        title: "Machine Learning Solutions",
+        description: `
+          Custom ML models for complex business problems:
+          - Classification and regression models
+          - Clustering and segmentation
+          - Recommendation systems
+          - Anomaly detection
+          - Natural language processing applications
+        `,
+      },
+      {
+        title: "Data Engineering & Infrastructure",
+        description: `
+          Robust foundations for data science:
+          - Data pipeline architecture and implementation
+          - ETL/ELT process optimization
+          - Data lake and warehouse design
+          - Real-time data processing frameworks
+          - MLOps implementation for model deployment
+        `,
+      },
+    ],
+    thirdHeading: "Data Science Technologies & Frameworks",
+    thirdDescription: `
+      We leverage cutting-edge tools and frameworks:
+      
+      Data Processing & Engineering:
+      - Apache Spark, Kafka, Airflow
+      - Snowflake, BigQuery, Redshift
+      - dbt, Fivetran, Airbyte
+      - Delta Lake, Iceberg
+      - Kubernetes for data workloads
+
+      Machine Learning & AI:
+      - PyTorch, TensorFlow, scikit-learn
+      - H2O.ai, XGBoost, LightGBM
+      - Hugging Face transformers
+      - MLflow, Weights & Biases
+      - Feature stores (Feast, Tecton)
+
+      Visualization & Reporting:
+      - Tableau, Power BI, Looker
+      - Plotly, D3.js, Streamlit
+      - Custom dashboards
+      - Automated reporting
+      - Interactive notebooks
+    `,
+    whyMatter: `
+      Data science delivers quantifiable business impact:
+      - 25-40% increase in marketing campaign effectiveness
+      - 15-30% reduction in operational costs through optimization
+      - 60% improvement in inventory management accuracy
+      - 35% increase in customer retention through predictive insights
+      - 45% faster time-to-insight for business decisions
+
+      In the age of big data, organizations that effectively leverage data science gain sustainable competitive advantages through superior decision-making.
+    `,
+    fourthHeading: "Our Data Science Methodology",
+    fourthDescripiton: `
+      1. Discovery & Problem Framing:
+      - Business objective clarification
+      - Data availability assessment
+      - Success criteria definition
+      - Initial hypothesis formation
+
+      2. Data Preparation & Exploration:
+      - Data collection and integration
+      - Cleaning and preprocessing
+      - Exploratory data analysis
+      - Feature engineering
+
+      3. Modeling & Validation:
+      - Algorithm selection and development
+      - Model training and tuning
+      - Cross-validation and testing
+      - Performance evaluation
+
+      4. Deployment & Value Realization:
+      - Model operationalization
+      - Integration with business processes
+      - Monitoring and maintenance
+      - Continuous improvement
+    `,
+  },
+  {
+    id: 11,
+    bannerimg: Nlp1,
+    link: "nlp",
+    imageone: Nlp2,
+    imgagetwo: Nlp3,
+    title: "Natural Language Processing",
+    heading: "Advanced NLP Solutions for Human-Machine Communication",
+    description: `
+      We develop sophisticated Natural Language Processing (NLP) systems that enable machines to understand, interpret, and generate human language with remarkable accuracy. 
+      Our NLP experts leverage cutting-edge language models and custom algorithms to create solutions that extract meaning from text, facilitate natural conversations, 
+      and automate language-intensive tasks. From sentiment analysis to conversational AI, our NLP implementations deliver tangible business value through enhanced 
+      customer experiences and operational efficiencies.
+
+      Key capabilities of our NLP solutions:
+      - 95%+ accuracy in intent recognition
+      - Multilingual support for global operations
+      - Domain-specific language understanding
+      - Real-time processing of conversational data
+      - Continuous learning from user interactions
+    `,
+    secondHeading: "Comprehensive NLP Services",
+    secondHeading_subheading: "Language Intelligence Solutions",
+    services: [
+      {
+        title: "Conversational AI & Chatbots",
+        description: `
+          Intelligent dialogue systems for customer engagement:
+          - Intent recognition and entity extraction
+          - Context-aware conversation management
+          - Sentiment analysis and emotion detection
+          - Multilingual support
+          - Integration with business systems
+        `,
+      },
+      {
+        title: "Text Analytics & Information Extraction",
+        description: `
+          Automated insights from unstructured text:
+          - Named entity recognition
+          - Topic modeling and classification
+          - Sentiment and opinion mining
+          - Relationship extraction
+          - Document summarization
+        `,
+      },
+      {
+        title: "Language Generation & Content Creation",
+        description: `
+          AI-powered content solutions:
+          - Automated report generation
+          - Product descriptions and marketing copy
+          - Personalized email and message composition
+          - Content summarization and expansion
+          - Translation and localization
+        `,
+      },
+    ],
+    thirdHeading: "NLP Technologies & Frameworks",
+    thirdDescription: `
+      We leverage state-of-the-art NLP technologies:
+      
+      Foundation Models:
+      - GPT, BERT, T5, LLaMA
+      - Fine-tuning for domain adaptation
+      - Prompt engineering
+      - Few-shot and zero-shot learning
+      - Retrieval-augmented generation
+
+      NLP Frameworks:
+      - Hugging Face Transformers
+      - spaCy, NLTK, Gensim
+      - Rasa for conversational AI
+      - LangChain, LlamaIndex
+      - Custom model architectures
+
+      Deployment & Scaling:
+      - Model optimization and quantization
+      - Inference optimization
+      - Vector databases
+      - Caching strategies
+      - Monitoring for drift and quality
+    `,
+    whyMatter: `
+      NLP technologies deliver measurable business impact:
+      - 70% reduction in customer service costs
+      - 24/7 availability for customer inquiries
+      - 85% faster document processing and information extraction
+      - 40% improvement in content creation efficiency
+      - 60% increase in customer satisfaction through personalized interactions
+
+      As language becomes a primary interface between humans and machines, NLP capabilities are becoming essential competitive differentiators.
+    `,
+    fourthHeading: "Our NLP Implementation Process",
+    fourthDescripiton: `
+      1. Requirements & Data Assessment:
+      - Use case definition
+      - Data availability evaluation
+      - Language and domain scoping
+      - Success metrics establishment
+
+      2. Model Development & Training:
+      - Data preparation and annotation
+      - Model selection or custom development
+      - Training and fine-tuning
+      - Evaluation and benchmarking
+
+      3. Integration & Deployment:
+      - API development
+      - System integration
+      - Performance optimization
+      - Testing and validation
+
+      4. Monitoring & Improvement:
+      - Usage analytics
+      - Performance monitoring
+      - Continuous learning
+      - Regular model updates
+    `,
+  },
+  {
+    id: 12,
+    bannerimg: CloudMigration1,
+    link: "cloud-migration",
+    imageone: CloudMigration2,
+    imgagetwo: CloudMigration3,
+    title: "Cloud Migration",
+    heading: "Seamless Cloud Migration Strategies for Business Transformation",
+    description: `
+      We guide organizations through complex cloud migrations with minimal disruption and maximum business value. 
+      Our experienced cloud architects and engineers develop tailored migration strategies that address your unique technical requirements, 
+      business objectives, and risk tolerance. From legacy systems to modern applications, we ensure a smooth transition to cloud environments 
+      while optimizing performance, security, and cost-efficiency throughout the journey.
+
+      Key advantages of our migration approach:
+      - Zero-downtime migration methodologies
+      - 30-50% reduction in infrastructure costs post-migration
+      - Comprehensive security and compliance preservation
+      - Application modernization during migration
+      - Accelerated migration timelines (40% faster than industry average)
+    `,
+    secondHeading: "Comprehensive Cloud Migration Services",
+    secondHeading_subheading: "End-to-End Migration Solutions",
+    services: [
+      {
+        title: "Migration Assessment & Strategy",
+        description: `
+          Thorough planning for successful migrations:
+          - Application portfolio assessment
+          - Dependency mapping and analysis
+          - Migration pattern selection (6R approach)
+          - TCO analysis and business case development
+          - Phased migration roadmap
+        `,
+      },
+      {
+        title: "Workload Migration & Modernization",
+        description: `
+          Efficient execution of migration plans:
+          - Lift and shift migrations
+          - Re-platforming to managed services
+          - Application refactoring and modernization
+          - Database migrations and transformations
+          - Testing and validation
+        `,
+      },
+      {
+        title: "Post-Migration Optimization",
+        description: `
+          Maximizing cloud benefits after migration:
+          - Performance optimization
+          - Cost management and optimization
+          - Security posture enhancement
+          - Operational process modernization
+          - Continuous improvement
+        `,
+      },
+    ],
+    thirdHeading: "Migration Technologies & Methodologies",
+    thirdDescription: `
+      We employ proven migration tools and approaches:
+      
+      Assessment & Planning:
+      - Cloud adoption frameworks
+      - Application discovery tools
+      - Dependency mapping solutions
+      - TCO calculators
+      - Migration readiness assessments
+
+      Migration Execution:
+      - Cloud migration factories
+      - Automated migration tools
+      - Database migration services
+      - Containerization platforms
+      - Data transfer solutions
+
+      Governance & Operations:
+      - Cloud management platforms
+      - Cost optimization tools
+      - Security and compliance frameworks
+      - Monitoring and observability solutions
+      - FinOps practices
+    `,
+    whyMatter: `
+      Strategic cloud migration delivers transformative business outcomes:
+      - 30-50% reduction in total infrastructure costs
+      - 3x improvement in application deployment frequency
+      - 60% faster time-to-market for new features
+      - 99.99% availability for critical workloads
+      - 40% reduction in security incidents
+
+      Cloud migration is not merely an IT initiative—it's a business transformation that enables agility, innovation, and competitive advantage.
+    `,
+    fourthHeading: "Our Migration Methodology",
+    fourthDescripiton: `
+      1. Discover & Assess:
+      - Application inventory creation
+      - Dependency mapping
+      - Technical debt assessment
+      - Migration pattern selection
+      - Business case development
+
+      2. Plan & Design:
+      - Target architecture design
+      - Migration wave planning
+      - Security and compliance planning
+      - Testing strategy development
+      - Rollback planning
+
+      3. Migrate & Validate:
+      - Phased migration execution
+      - Data migration and validation
+      - Application testing
+      - Performance validation
+      - Security verification
+
+      4. Optimize & Operate:
+      - Performance tuning
+      - Cost optimization
+      - Operational handover
+      - Knowledge transfer
+      - Continuous improvement
     `,
   },
 ];
