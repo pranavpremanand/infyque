@@ -86,7 +86,7 @@ import { SiBlockchaindotcom, SiUnity, SiGooglechat } from "react-icons/si";
 
 export const companyDetails = {
   name: "INFYQUE",
-  email: "abc@xyz.com",
+  email: "info@infyque.com",
   phone: "+91-9480060790",
   address:
     "Unit 101, Oxford Towers, 139, HAL Old Airport R, Bengaluru, Karnataka 560008",
@@ -100,7 +100,7 @@ export const companyDetails = {
       icon: FaInstagram,
     },
     {
-      href: "",
+      href: "https://www.facebook.com/share/1CAiokFZYq/?mibextid=qi2Omg",
       icon: FaFacebook,
     },
     {
