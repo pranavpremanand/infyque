@@ -7,6 +7,12 @@
   width: 6px;
 }
 
+.reset-html-content h1,
+.reset-html-content h2,
+.reset-html-content p {
+  all: revert;
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: #0088cc;
   border-radius: 8px;
@@ -218,4 +224,62 @@ html {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* Blog content styles */
+.blog-content-container {
+  @apply max-w-full overflow-hidden;
+}
+
+.blog-content-container img {
+  @apply max-w-full h-auto rounded-lg my-6;
+}
+
+.blog-content-container h1 {
+  @apply text-3xl font-bold mt-8 mb-4 dark:text-white;
+}
+
+.blog-content-container h2 {
+  @apply text-2xl font-bold mt-6 mb-3 dark:text-white;
+}
+
+.blog-content-container h3 {
+  @apply text-xl font-semibold mt-5 mb-3 dark:text-white;
+}
+
+.blog-content-container p {
+  @apply my-4 leading-relaxed dark:text-white/90;
+}
+
+.blog-content-container ul, 
+.blog-content-container ol {
+  @apply pl-6 my-4 dark:text-white/90;
+}
+
+.blog-content-container ul {
+  @apply list-disc;
+}
+
+.blog-content-container ol {
+  @apply list-decimal;
+}
+
+.blog-content-container li {
+  @apply my-2;
+}
+
+.blog-content-container blockquote {
+  @apply pl-4 border-l-4 border-primary italic my-6 py-2 dark:text-white/80;
+}
+
+.blog-content-container a {
+  @apply text-primary hover:underline;
+}
+
+.blog-content-container pre {
+  @apply bg-gray-100 dark:bg-gray-800 p-4 rounded-lg overflow-x-auto my-6;
+}
+
+.blog-content-container code {
+  @apply bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-sm;
 }
