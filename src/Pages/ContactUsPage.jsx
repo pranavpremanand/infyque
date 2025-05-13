@@ -81,7 +81,7 @@ const ContactUsPage = () => {
             <h1 className="main-title mb-8" data-aos="fade-right">
               Get in Touch
             </h1>
-            <div className="space-y-4 desc" data-aos="fade-right">
+            <div className="space-y-4 desc flex flex-cog" data-aos="fade-right">
               <Link to={`tel:${companyDetails.phone}`}>
                 Phone: {companyDetails.phone}
               </Link>
