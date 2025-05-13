@@ -103,14 +103,6 @@ export const companyDetails = {
       href: "https://www.facebook.com/share/1CAiokFZYq/?mibextid=qi2Omg",
       icon: FaFacebook,
     },
-    {
-      href: "",
-      icon: FaXTwitter,
-    },
-    {
-      href: "",
-      icon: FaYoutube,
-    },
   ],
   whatsapp: "https://wa.me/message/KS2NX4N4EVX5N1",
 };

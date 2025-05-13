@@ -3,7 +3,7 @@ import MapComponent from "../Components/MapComponent";
 import { useState } from "react";
 import { companyDetails } from "../util/constant";
 import toast from "react-hot-toast";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import PhoneInput from "react-country-phone-input";
 import "react-country-phone-input/lib/style.css";
 
@@ -82,8 +82,12 @@ const ContactUsPage = () => {
               Get in Touch
             </h1>
             <div className="space-y-4 desc" data-aos="fade-right">
-              <p>Phone: {companyDetails.phone}</p>
-              <p>Email: {companyDetails.email}</p>
+              <Link to={`tel:${companyDetails.phone}`}>
+                Phone: {companyDetails.phone}
+              </Link>
+              <Link to={`mailto:${companyDetails.email}`}>
+                Email: {companyDetails.email}
+              </Link>
               <p>Office Address: {companyDetails.address}</p>
             </div>
           </div>
