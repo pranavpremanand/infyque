@@ -1,7 +1,27 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 import { Link as Scroll } from "react-scroll";
+import { motion } from "framer-motion";
+
+import FinancialServicesImage from "../../src/assets/images/industries/Financial Services.webp";
+import HealthcareImage from "../../src/assets/images/industries/Healthcare.webp";
+import ManufacturingImage from "../../src/assets/images/industries/Manufacturing.webp";
+import EnergyImage from "../../src/assets/images/industries/Energy.webp";
+import RetailImage from "../../src/assets/images/industries/Retail.webp";
+import RealEstateImage from "../../src/assets/images/industries/Real Estate.webp";
+import FoodAndBeverageImage from "../../src/assets/images/industries/Food and Beverage.webp";
+import TransportationImage from "../../src/assets/images/industries/Transportation.webp";
+import CommunicationImage from "../../src/assets/images/industries/Communication.webp";
+import ConsumerElectronicsImage from "../../src/assets/images/industries/Consumer Electronics.webp";
+import AerospaceAndDefenseImage from "../../src/assets/images/industries/Aerospace and Defense.webp";
+import ChemicalsImage from "../../src/assets/images/industries/Chemicals.webp";
+import MiningImage from "../../src/assets/images/industries/Mining.webp";
+import AgricultureImage from "../../src/assets/images/industries/Agriculture.webp";
+import ConstructionImage from "../../src/assets/images/industries/Construction.webp";
+import HospitalityImage from "../../src/assets/images/industries/Hospitality.webp";
+import EntertainmentImage from "../../src/assets/images/industries/Entertainment.webp";
+import ConsultingImage from "../../src/assets/images/industries/Consulting.webp";
+import LegalImage from "../../src/assets/images/industries/Legal.webp";
 
 const IndustriesPage = () => {
   const [industries, setIndustries] = useState([]);
@@ -12,7 +32,7 @@ const IndustriesPage = () => {
       {
         id: 1,
         title: "Financial Services",
-        image: "./src/assets/images/industries/Financial Services.webp",
+        image: FinancialServicesImage,
         description:
           "Innovation and security go hand in hand in finance. We help banks, fintech startups, and insurers build fast, secure, and customer-friendly digital platforms. From fraud detection using AI to smart contract-enabled blockchain systems, our tech helps streamline everything from customer onboarding to compliance.",
         deliverables: [
@@ -27,7 +47,7 @@ const IndustriesPage = () => {
       {
         id: 2,
         title: "Healthcare",
-        image: "./src/assets/images/industries/Healthcare.webp",
+        image: HealthcareImage,
         description:
           "Healthcare is evolving rapidly with technology at the center. We design patient portals, AI-assisted diagnostics, and HIPAA-compliant mobile apps that simplify experiences for both doctors and patients. NLP tools help with medical transcription and chatbot triage, while cloud platforms ensure safe, scalable data handling.",
         deliverables: [
@@ -42,7 +62,7 @@ const IndustriesPage = () => {
       {
         id: 3,
         title: "Manufacturing",
-        image: "./src/assets/images/industries/Manufacturing.webp",
+        image: ManufacturingImage,
         description:
           "We bring smart automation to the factory floor. Using AI, RPA, and real-time data platforms, we help manufacturers streamline operations, reduce downtime, and maintain high-quality outputs. Our cloud-based tools offer better insights across production lines and supply chains.",
         deliverables: [
@@ -57,7 +77,7 @@ const IndustriesPage = () => {
       {
         id: 4,
         title: "Energy",
-        image: "./src/assets/images/industries/Energy.webp",
+        image: EnergyImage,
         description:
           "Energy firms need efficient, scalable, and secure technology systems. We develop AI models for load forecasting, blockchain for trading transparency, and mobile apps for remote field monitoring. Our cloud infrastructures support real-time data and predictive insights.",
         deliverables: [
@@ -72,7 +92,7 @@ const IndustriesPage = () => {
       {
         id: 5,
         title: "Retail",
-        image: "./src/assets/images/industries/Retail.webp",
+        image: RetailImage,
         description:
           "Retail success hinges on speed and personalization. We help retailers build immersive digital storefronts, intelligent recommendation engines, and 24/7 support through chatbots. Our focus is always on better shopping experiences and operational agility.",
         deliverables: [
@@ -87,7 +107,7 @@ const IndustriesPage = () => {
       {
         id: 6,
         title: "Real Estate",
-        image: "./src/assets/images/industries/Real Estate.webp",
+        image: RealEstateImage,
         description:
           "Whether it's simplifying property searches or managing leads more effectively, we help real estate firms modernize their platforms. Our custom CRMs, AI tools, and mobile apps make property browsing, booking, and management more streamlined than ever.",
         deliverables: [
@@ -102,7 +122,7 @@ const IndustriesPage = () => {
       {
         id: 7,
         title: "Food and Beverage",
-        image: "./src/assets/images/industries/Food and Beverage.webp",
+        image: FoodAndBeverageImage,
         description:
           "Speed, quality, and convenience drive the F&B sector. We deliver mobile ordering apps, smart POS systems, and AI-based kitchen and inventory tools that keep operations smooth and customers satisfied.",
         deliverables: [
@@ -117,7 +137,7 @@ const IndustriesPage = () => {
       {
         id: 8,
         title: "Transportation",
-        image: "./src/assets/images/industries/Transportation.webp",
+        image: TransportationImage,
         description:
           "In logistics and mobility, efficiency is everything. We build route optimization tools, fleet tracking platforms, and mobile ticketing apps powered by AI and cloud. Our systems reduce costs and improve delivery speed and reliability.",
         deliverables: [
@@ -132,7 +152,7 @@ const IndustriesPage = () => {
       {
         id: 9,
         title: "Communication",
-        image: "./src/assets/images/industries/Communication.webp",
+        image: CommunicationImage,
         description:
           "We help brands and platforms deliver seamless, secure communication. From chat and VoIP systems to AI-driven moderation and translation, our tech stack supports dynamic and scalable real-time interactions.",
         deliverables: [
@@ -147,7 +167,7 @@ const IndustriesPage = () => {
       {
         id: 10,
         title: "Consumer Electronics",
-        image: "./src/assets/images/industries/Consumer Electronics.webp",
+        image: ConsumerElectronicsImage,
         description:
           "We connect people to their devices more intuitively. Whether it's developing a companion app or a smart home dashboard, our focus is on usability, integration, and continuous learning through AI.",
         deliverables: [
@@ -162,7 +182,7 @@ const IndustriesPage = () => {
       {
         id: 11,
         title: "Aerospace and Defense",
-        image: "./src/assets/images/industries/Aerospace and Defense.webp",
+        image: AerospaceAndDefenseImage,
         description:
           "In this high-stakes sector, precision and security are critical. We create solutions that include blockchain for secure communications, AI for equipment diagnostics, and cloud environments built for compliance and resilience.",
         deliverables: [
@@ -177,7 +197,7 @@ const IndustriesPage = () => {
       {
         id: 12,
         title: "Chemicals",
-        image: "./src/assets/images/industries/Chemicals.webp",
+        image: ChemicalsImage,
         description:
           "Safety and regulation come first in chemical manufacturing. Our AI and RPA solutions help maintain compliance and safety protocols, while our data platforms improve visibility and efficiency in production.",
         deliverables: [
@@ -192,7 +212,7 @@ const IndustriesPage = () => {
       {
         id: 13,
         title: "Mining",
-        image: "./src/assets/images/industries/Mining.webp",
+        image: MiningImage,
         description:
           "We digitize rugged operations with smart analytics, AI-based exploration support, and real-time safety tools. Our platforms enable data-driven decision-making in the field and in the office.",
         deliverables: [
@@ -207,7 +227,7 @@ const IndustriesPage = () => {
       {
         id: 14,
         title: "Agriculture",
-        image: "./src/assets/images/industries/Agriculture.webp",
+        image: AgricultureImage,
         description:
           "Modern farming is data-driven. We deliver mobile and cloud solutions that manage everything from irrigation to yield forecasting. Our platforms support precision agriculture for better sustainability and productivity.",
         deliverables: [
@@ -222,7 +242,7 @@ const IndustriesPage = () => {
       {
         id: 15,
         title: "Construction",
-        image: "./src/assets/images/industries/Construction.webp",
+        image: ConstructionImage,
         description:
           "We build digital tools for the job site—project tracking, collaboration, and compliance become seamless. From mobile project management apps to RPA for document flow, we make construction smarter.",
         deliverables: [
@@ -237,7 +257,7 @@ const IndustriesPage = () => {
       {
         id: 16,
         title: "Hospitality",
-        image: "./src/assets/images/industries/Hospitality.webp",
+        image: HospitalityImage,
         description:
           "Guest expectations are higher than ever. We deliver apps for booking, personalization engines using AI, and chatbots that handle everything from room service to concierge tasks—all built to create memorable experiences.",
         deliverables: [
@@ -252,7 +272,7 @@ const IndustriesPage = () => {
       {
         id: 17,
         title: "Entertainment",
-        image: "./src/assets/images/industries/Entertainment.webp",
+        image: EntertainmentImage,
         description:
           "Streaming, gaming, live events—we support entertainment platforms with scale and creativity. Our AI algorithms help curate personalized experiences, while our cloud architecture supports millions of users in real time.",
         deliverables: [
@@ -267,7 +287,7 @@ const IndustriesPage = () => {
       {
         id: 18,
         title: "Consulting",
-        image: "./src/assets/images/industries/Consulting.webp",
+        image: ConsultingImage,
         description:
           "Consultants need agility and insight. We help firms automate data capture, visualize performance, and engage clients through digital portals. AI and data science improve strategic delivery.",
         deliverables: [
@@ -282,7 +302,7 @@ const IndustriesPage = () => {
       {
         id: 19,
         title: "Legal",
-        image: "./src/assets/images/industries/Legal.webp",
+        image: LegalImage,
         description:
           "Digital tools are redefining legal work. We build secure case management systems, use NLP to streamline legal research, and implement chatbots for better client interaction.",
         deliverables: [
