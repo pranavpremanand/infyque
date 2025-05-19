@@ -11,7 +11,7 @@ const AppLayout = () => {
   AOS.init({
     once: true,
     duration: 1000,
-    offset: -10,
+    offset: -200,
   });
   return (
     <div>

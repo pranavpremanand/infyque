@@ -436,7 +436,7 @@ const IndustriesPage = () => {
               <h3 className="main-title mb-6">{industry.title}</h3>
               <p className="desc max-w-4xl mx-auto">{industry.description}</p>
             </div>
-            <div className="relative h-[400px] overflow-hidden rounded-2xl">
+            <div className="relative h-[500px] sm:h-[400px] overflow-hidden rounded-2xl">
               <img
                 src={industry.image}
                 alt={industry.title}
