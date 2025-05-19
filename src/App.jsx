@@ -17,6 +17,7 @@ const LandingPage = lazy(() => import("./Pages/landingpages/LandingPage"));
 
 const Thankyou = lazy(() => import("./Pages/Thankyou"));
 const Portfolio = lazy(() => import("./Pages/Portfolio"));
+const IndustriesPage = lazy(() => import("./Pages/IndustriesPage"));
 
 import { LoadingSpinner } from "./Components/Loader";
 import ScrollToTop from "./Components/ScrollToTop";
@@ -47,6 +48,7 @@ const AppRouter = createBrowserRouter([
       { path: "/services/:title", element: <ServiceDetails /> },
       { path: "/contact-us", element: <ContactUsPage /> },
       { path: "/portfolio", element: <Portfolio /> },
+      { path: "/industries", element: <IndustriesPage /> },
       { path: "/thank-you", element: <Thankyou /> },
       { path: "/careers", element: <Careers /> },
       {
