@@ -8,11 +8,11 @@ import Testimonials from "../Components/Testimonials";
 import Highlights from "../Components/Highlights";
 import Faq from "../Components/Faq";
 import { useTheme } from "../Context/ThemeContext";
-import Industries from "../Components/Industries";
 import Ourvalues from "../Components/Ourvalues";
 import Portfolio from "../Components/Portfolio";
 import LeadForm from "../Components/landingpage/LeadForm";
 import BrandLogos from "../Components/BrandLogos";
+
 const HomePage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
@@ -53,8 +53,6 @@ const HomePage = () => {
         </div>
         <ServicesGrid />
       </section>
-
-      <Industries />
       <Portfolio />
       <div className="relative overflow-hidden dark:bg-darkblack min-h-screen">
         <div

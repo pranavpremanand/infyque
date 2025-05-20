@@ -15,7 +15,6 @@ import appAboutImg from "../../assets/images/app-development.webp";
 import Ourvalues from "../../Components/Ourvalues";
 import TechnologiesUsed from "../../Components/landingpage/TechnologiesUsed";
 import BrandLogos from "../../Components/BrandLogos";
-import Industries from "../../Components/Industries";
 import WhatsAppIcon from "../../Components/WhatsApp";
 
 const LandingPage = ({ page }) => {
@@ -71,7 +70,6 @@ const LandingPage = ({ page }) => {
           <Portfolio page={page} />
           <TechnologiesUsed service={page} />
           <section className="relative z-10 w-full h-full">
-            <Industries />
             <CoreValues />
             <VisionMission />
             <OurApproach />

@@ -41,7 +41,7 @@ const LandingHeader = () => {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               to="/"
-              className="text-white hover:text-blue-300 dark:hover:text-primary cursor-pointer"
+              className="text-white hover:text-gray-800 dark:hover:text-primary cursor-pointer"
             >
               Home
             </Link>
@@ -53,7 +53,7 @@ const LandingHeader = () => {
               offset={-140}
               duration={1000}
               activeClass="active-link text-blue-300 dark:text-primary"
-              className="text-white hover:text-blue-300 dark:hover:text-primary cursor-pointer"
+              className="text-white hover:text-gray-800 dark:hover:text-primary cursor-pointer"
             >
               About Us
             </Scrolllink>
@@ -65,16 +65,22 @@ const LandingHeader = () => {
               offset={-140}
               duration={1000}
               activeClass="active-link text-blue-300 dark:text-primary"
-              className="text-white hover:text-blue-300 dark:hover:text-primary cursor-pointer"
+              className="text-white hover:text-gray-800 dark:hover:text-primary cursor-pointer"
             >
               Services
             </Scrolllink>
 
             <Link
               to="/blogs"
-              className="text-white hover:text-blue-300 dark:hover:text-primary cursor-pointer"
+              className="text-white hover:text-gray-800 dark:hover:text-primary cursor-pointer"
             >
               Blogs
+            </Link>
+            <Link
+              to="/industries"
+              className="text-white hover:text-gray-800 dark:hover:text-primary cursor-pointer"
+            >
+              Industries
             </Link>
             <Scrolllink
               to="contact"
@@ -84,7 +90,7 @@ const LandingHeader = () => {
               offset={-140}
               duration={1000}
               activeClass="active-link "
-              className="primary-btn"
+              className="text-white hover:text-gray-800 dark:hover:text-primary cursor-pointer"
             >
               Contact Us
             </Scrolllink>
